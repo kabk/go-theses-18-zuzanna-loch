@@ -8,5 +8,6 @@ p {
 }
 
 .wrapper {
+	margin: 100px;
 	width: 80%;
 }
