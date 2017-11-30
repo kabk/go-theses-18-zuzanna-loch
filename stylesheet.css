@@ -6,3 +6,7 @@ p {
 	font-family: 'Cormorant', bold;
 
 }
+
+.wrapper {
+	width: 80%;
+}
