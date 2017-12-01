@@ -1,11 +1,21 @@
 h1 {
-	font-family: 'Cormorant', bold;
+	font-family: 'Cormorant-Semibold';
+	font-weight: bold;
+	font-size: 45;
+}
+
+h2 {
+	font-family: 'Cormorant-Bold';
+	font-weight: bold;
+	font-size: 70px;
 }
 
 p {
 	font-family: 'Cormorant', bold;
 
 }
+
+
 
 img {
 	width: 80%;
@@ -14,5 +24,16 @@ img {
 .wrapper {
 
 	margin: 100px;
-	width: 80%;
+	width: 70%;
+}
+
+video {
+	position: fixed;
+	top: -300px;
+	left: -120px;
+	z-index: -10;
+}
+
+.front {
+	padding-bottom: 350px;
 }
