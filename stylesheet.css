@@ -14,6 +14,12 @@ h2 {
 	font-size: 70;
 }
 
+h6 {
+	font-family: 'Cormorant', serif;
+	font-weight: bold;
+	font-size: 70;
+}
+
 h3 {
 	font-family: 'Cormorant', serif;
 	font-weight: lighter;
@@ -110,6 +116,7 @@ hr {
 	width: 300px;
 	float: left;
 	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .quote {
@@ -165,37 +172,28 @@ hr {
 }
 
 @media print {
-body {-webkit-print-color-adjust: exact;}
-h1 {font-size: 20; }
-h2 {font-size: 90;  page-break-after: avoid;}
-h3 {font-size: 13;}
-h4 {font-size: 9;}
-.introduction { width:70%;  padding-right: 250px;}
-.introduction img {width: 300px; float: left; mix-blend-mode: multiply;}
-.fiction {font-size: 15;}
-.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden;}
-#menu-container{display:none;}
-.video {display: none;}
-#video {display: none;}
 
 
-}
-@page {
-  
-  }
-}
-
-@page {
-  size: 9in 12in;
-  padding-top: 100px;
-  padding-bottom: 100px;
+	body {-webkit-print-color-adjust: exact; }
+	h1 {font-size: 20; }
+	h2 {font-size: 70;  page-break-after: avoid; page-break-before: always}
+	h3 {font-size: 20;}
+	h4 {font-size: 15;}
+	
+	.quote { font-size: 20;}
+	.introduction { width:70%;  padding-right: 250px; page-break-after: always; }
+	.introduction img {width: 300px; float: left; mix-blend-mode: multiply; page-break-inside: avoid;}
+	.fiction {font-size: 15;}
+	.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden; page-break-inside: avoid;}
+	#menu-container{display:none;}
+	.video {display: none;}
+	#video {display: none;}
+	.type-wrap {display:none;}
+	ul, img {
+   		page-break-inside: avoid;
+		}
 
 }
-
-
-
-
-
 
 
 
