@@ -175,10 +175,11 @@ hr {
 
 
 	body {-webkit-print-color-adjust: exact; }
-	h1 {font-size: 20; }
+	h1 {font-size: 20; font-weight: lighter;}
 	h2 {font-size: 70;  page-break-after: avoid; page-break-before: always}
-	h3 {font-size: 40;}
+	h3 {font-size: 20;}
 	h4 {font-size: 15;}
+	h6 {page-break-inside: avoid;}
 	
 	.quote { font-size: 20;}
 	.introduction { width:70%;  padding-right: 250px; page-break-after: always; }
