@@ -17,7 +17,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'AvenirLTStd-HeavyOblique';
+	font-family: 'Futura';
 	font-size: 19;
 }
 
@@ -26,25 +26,26 @@ p {
 
 }
 
-.wrapper {
+/*.wrapper {
 
 	margin: 100px;
 	width: 70%;
-}
+}*/
 
-.introduction-back {
-	background-color: #000000;
+/*.introduction-back {
+	
 	width: 110%;
-	height: 900%;
+	height: 845%;
 	position: absolute;
 	left: -50px;
 	z-index: -1000;
 
-}
+}*/
 
 video {
 	top: -200px;
-	left: -120px;
+	width: 100%;
+	/*left: -120px;*/
 	z-index: -10;
 }
 
@@ -53,12 +54,19 @@ video {
 }
 
 .front {
-	padding-bottom: 350px;
+	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 18%;
+	padding-top: 100px;
 }
 
 .introduction {
+	background-color: #000000;
+	padding-left: 10%;
+	padding-right: 15%;
 	color: #ffb6af;
 	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .introduction img {
@@ -80,7 +88,37 @@ video {
 	
 }
 
+hr {
+	 border-color: #ffb6af;
+}
 
+.fiction {
+	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 18%;
+	padding-top: 100px;
+	font-size: 22;
+	font-family: Futura;
+	font-weight: lighter;
+}
+
+.quote {
+	padding-bottom: 80px;
+	padding-left: 15%;
+	font-size: 25;
+	font-weight: bold;
+}
+
+.personal {
+	font-family: Helvetica;
+	width: 50%;
+	display: inline-block;
+    word-break:break-all;
+    padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 18%;
+	padding-top: 100px;
+}
 
 
 
@@ -115,6 +153,48 @@ video {
     top: 50%;
     transform: translate(0, -50%);
 }
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
+h1 {font-size: 20; }
+h2 {font-size: 40; page-break-before: always; page-break-after: avoid;}
+h3 {font-size: 13;}
+h4 {font-size: 9;}
+.introduction { width:70%;  padding-right: 250px;}
+.introduction img {width: 300px; float: left; mix-blend-mode: multiply;}
+.fiction {font-size: 15;}
+.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden;}
+#menu-container{display:none;}
+.video {display: none;}
+#video {display: none;}
+
+
+}
+@page {
+  
+  }
+}
+
+@page {
+  size: 9in 12in;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ul {
+	padding-left: 100px;
+}
+
+
 
 
 
