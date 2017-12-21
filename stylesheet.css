@@ -23,11 +23,6 @@ h4 {
 	font-size: 19;
 }
 
-h5 {
-	font-family: 'Cormorant-Bold';
-	font-weight: bold;
-}
-
 p {
 	font-family: 'Cormorant', bold;
 
@@ -112,7 +107,7 @@ hr {
 .quote {
 	padding-bottom: 80px;
 	padding-left: 15%;
-	font-size: 25;
+	font-size: 29;
 	font-weight: bold;
 }
 
