@@ -104,6 +104,12 @@ hr {
 	font-weight: lighter;
 }
 
+.fiction img {
+	width: 400px;
+	float: left;
+	margin-right: 20px;
+}
+
 .quote {
 	padding-bottom: 80px;
 	padding-left: 15%;
