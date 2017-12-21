@@ -1,19 +1,19 @@
 
 h1 {
 
-	font-family: 'Cormorant-Semibold';
+	font-family: 'Cormorant', serif;
 	font-weight: bold;
 	font-size: 45;
 }
 
 h2 {
-	font-family: 'Cormorant-Bold';
+	font-family: 'Cormorant', serif;
 	font-weight: bold;
 	font-size: 70px;
 }
 
 h3 {
-	font-family: 'Cormorant-Light';
+	font-family: 'Cormorant', serif;
 	font-weight: lighter;
 	font-size: 40;
 }
