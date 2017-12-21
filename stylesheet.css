@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Cormorant-Bold;
-	src: url(fonts/Cormorant-Bold.ttf);
+	src: url('https://fonts.googleapis.com/css?family=Cormorant');
 	}
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-	font-family: Cormorant-Bold;
+	font-family: 'Cormorant-Bold';
 	font-weight: bold;
 	font-size: 70px;
 }
