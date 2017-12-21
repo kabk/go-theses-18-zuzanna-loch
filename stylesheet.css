@@ -187,6 +187,8 @@ h4 {font-size: 9;}
 
 @page {
   size: 9in 12in;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
 }
 
