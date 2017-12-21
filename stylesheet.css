@@ -11,11 +11,11 @@ h1 {
 h2 {
 	font-family: 'Cormorant', serif;
 	font-weight: bold;
-	font-size: 70px;
+	font-size: 70;
 }
 
 h3 {
-	font-family: 'Cormorant-Light';
+	font-family: 'Cormorant', serif;
 	font-weight: lighter;
 	font-size: 40;
 }
