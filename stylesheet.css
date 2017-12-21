@@ -1,10 +1,7 @@
-@font-face {
-	font-family: 'Cormorant';
-	src: url(fonts/Cormorant-Bold.ttf);
-	}
+
 h1 {
 
-	font-family: 'Cormorant-Semibold';
+	font-family: 'Cormorant';
 	font-weight: bold;
 	font-size: 45;
 }
@@ -16,7 +13,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Cormorant-Light';
+	font-family: 'Cormorant';
 	font-weight: lighter;
 	font-size: 40;
 }
