@@ -1,3 +1,7 @@
+function prettyLog(str) {
+  console.log('%c ' + str, 'color: green; font-weight: bold;');
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
@@ -17,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     onStart: function(pos, self) { prettyLog('onStart ' + pos + ' ' + self) },
     onDestroy: function(self) { prettyLog('onDestroy ' + self) }
   });
-
+});
+/*
   document.querySelector('.toggle').addEventListener('click', function() {
     typed.toggle();
   });
@@ -83,9 +88,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-function prettyLog(str) {
-  console.log('%c ' + str, 'color: green; font-weight: bold;');
-}
 
 function toggleLoop(typed) {
   if (typed.loop) {
@@ -94,3 +96,4 @@ function toggleLoop(typed) {
     typed.loop = true;
   }
 }
+*/
