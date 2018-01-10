@@ -128,8 +128,9 @@ hr {
 
 .personal {
 	font-family: Helvetica;
+	line-height: 26px;
 	width: 50%;
-	display: inline-block;
+	/*display: inline-block;*/
     word-break:break-all;
     padding-bottom: 100px;
 	padding-left: 10%;
