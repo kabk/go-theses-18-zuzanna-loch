@@ -41,6 +41,8 @@ h6 {
 
 
 
+
+
 p {
 	font-family: 'Cormorant', bold;
 
@@ -135,6 +137,11 @@ hr {
 	margin-bottom: 10px;
 }
 
+#orlando {
+	font-size: 45;
+}
+
+
 .quote {
 	padding-bottom: 80px;
 	padding-left: 15%;
@@ -171,10 +178,10 @@ hr {
     left: 94%;
     top: 15%;
 	font-size: 45;
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     /* Rotate div */
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Safari 3-8 */
