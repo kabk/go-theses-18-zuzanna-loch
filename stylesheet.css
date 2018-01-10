@@ -129,7 +129,7 @@ hr {
 .personal {
 	font-family: Helvetica;
 	line-height: 26px;
-	width: 90%;
+	/*width: 90%;*/
 	/*display: inline-block;*/
     word-break:break-all;
     padding-bottom: 100px;
