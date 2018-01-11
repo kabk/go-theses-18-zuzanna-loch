@@ -17,11 +17,11 @@ h2 {
 h3 {
 	font-family: 'Cormorant', serif;
 	font-weight: lighter;
-	font-size: 39;
+	font-size: 30;
 }
 
 h4 {
-	font-family: 'Futura';
+	font-family: 'Avenir';
 	font-size: 19;
 }
 
@@ -93,10 +93,73 @@ video {
 	margin-right: -10px;
 }
 
+
+
 .introduction img {
 	width: 500px; 
 	float: left;
 	mix-blend-mode: multiply;
+}
+
+.reality {
+	background-color: #000000;
+	padding-left: 10%;
+	padding-right: 18%;
+	color: #ffb6af;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+/*.reality img {
+	width: 220px;
+}*/
+
+.img-left {
+	float: left;
+}
+
+.block {
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	font-family: Avenir;
+	color: white;
+	font-size: 15;
+
+	
+}
+
+.img-margin {
+	margin-left: 30%;
+}
+
+/*.img-right {
+	padding-left: 45%;
+}*/
+
+.interviews {
+	padding-left: 10%;
+	padding-right: 18%;
+	color: #ffb6af;
+	/*padding-top: 100px;*/
+	padding-bottom: 100px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.references {
+	padding-left: 10%;
+	padding-right: 18%;
+	color: #ffb6af;
+	/*padding-top: 100px;*/
+	padding-bottom: 100px;
+	margin-left: -10px;
+	margin-right: -10px;
+	font-family: Cormorant;
 }
 
 #subtitle {
@@ -126,7 +189,7 @@ hr {
 	padding-right: 18%;
 	padding-top: 100px;
 	font-size: 22;
-	font-family: Futura;
+	font-family: Avenir;
 	font-weight: lighter;
 }
 
@@ -135,10 +198,13 @@ hr {
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
-#orlando {
+.fiction-chapter {
 	font-size: 45;
+	/*position: absolute;
+	top: 790%;*/
 }
 
 
@@ -151,14 +217,16 @@ hr {
 
 .personal {
 	font-family: Helvetica;
+	font-size: 18;
 	line-height: 26px;
 	/*width: 90%;*/
 	/*display: inline-block;*/
     word-break:break-all;
     padding-bottom: 100px;
-	padding-left: 10%;
+	padding-left: 5%;
 	/*padding-right: 18%;*/
 	padding-top: 100px;
+	text-shadow: 0 0 3px #ffd0cc, 0 0 14px #ffd0cc;
 }
 
 
@@ -206,6 +274,16 @@ hr {
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Safari 3-8 */
     transform: rotate(-90deg);
+}
+
+#trobriant {
+	position: absolute;
+	top: 475%;
+
+}
+
+#trobriant img {
+	width: 100%;
 }
 
 @media print {
