@@ -29,17 +29,15 @@ h5 {
 	font-family: 'Cormorant', serif;
 	font-weight: lighter;
 	font-size: 120;
+	-webkit-margin-after: 0px;
 }
 
 h6 {
 	font-family: 'Cormorant', serif;
 	font-weight: bold;
 	font-size: 70;
+	-webkit-margin-after: 1em;
 }
-
-
-
-
 
 
 
@@ -48,21 +46,12 @@ p {
 
 }
 
-/*.wrapper {
-
-	margin: 100px;
-	width: 70%;
-}*/
-
-/*.introduction-back {
+a {
+	text-decoration: none;
+	color: white;
 	
-	width: 110%;
-	height: 845%;
-	position: absolute;
-	left: -50px;
-	z-index: -1000;
+}
 
-}*/
 
 video {
 	top: -200px;
@@ -82,7 +71,7 @@ video {
 	padding-top: 1px;
 }
 
-.introduction {
+.blackpink {
 	background-color: #000000;
 	padding-left: 10%;
 	padding-right: 18%;
@@ -95,7 +84,7 @@ video {
 
 
 
-.introduction img {
+.blackpink img {
 	width: 500px; 
 	float: left;
 	mix-blend-mode: multiply;
@@ -137,6 +126,10 @@ video {
 	margin-left: 30%;
 }
 
+#graph {
+	margin-left: 10%;
+}
+
 /*.img-right {
 	padding-left: 45%;
 }*/
@@ -145,21 +138,47 @@ video {
 	padding-left: 10%;
 	padding-right: 18%;
 	color: #ffb6af;
-	/*padding-top: 100px;*/
 	padding-bottom: 100px;
 	margin-left: -10px;
 	margin-right: -10px;
 }
 
+.interviews-content {
+	columns: 2;
+	-webkit-column-gap: 1px;
+	-moz-column-gap: 1px;
+	font-family: Avenir;
+	font-size: 17;
+	color: black;
+	/*text-shadow: 0 0 15px #ffb6af;*/
+}
+
+ul {
+	
+	list-style-type: none;
+	padding-left: 50px;
+	-webkit-margin-before: 0em;
+
+}
+
+li {
+
+	text-decoration: none;
+	-webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
 .references {
 	padding-left: 10%;
 	padding-right: 18%;
-	color: #ffb6af;
+	/*color: #ffb6af;*/
 	/*padding-top: 100px;*/
 	padding-bottom: 100px;
 	margin-left: -10px;
 	margin-right: -10px;
 	font-family: Cormorant;
+	font-size: 18px;
 }
 
 #subtitle {
@@ -232,20 +251,17 @@ hr {
 
 
 
-#menu-container div{
+
+
+.menu-container div{
+	text-decoration: none;
 	position: fixed;
 	padding-left: 1%;
 	padding-top: 0.5%;
 	padding-right: 1%;
-	padding-bottom: 5%;
 	color: #ffb6af;
-	/*width: 15%;
-	height: 20%;*/
 	background-color: rgba(0, 0, 0, 1);
-	opacity: 0.35;
-    left: 94%;
-    top: 15%;
-	font-size: 45;
+	opacity: 0.25;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -255,12 +271,13 @@ hr {
     -webkit-transform: rotate(-90deg); /* Safari 3-8 */
     transform: rotate(-90deg);
     border-radius: 6px;
-    font-family: 'Cormorant', serif;
-	font-size: 30;
+    font-family: Avenir;
+    font-weight: lighter;
+	font-size: 15;
 }
 
 
-#menu-container div:hover{
+.menu-container div:hover{
     position: fixed;
     
     background-color: rgba(0, 0, 0, 0);
@@ -268,17 +285,47 @@ hr {
     color: black;
     text-shadow: 0 0 3px #ffd0cc, 0 0 20px #ffd0cc;
 
-    left: 92%;
-    transform: translate(0, -50%);
+    /*left: 92%;*/
+    transform: translate(-5%, -54%);
     /* Rotate div */
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Safari 3-8 */
     transform: rotate(-90deg);
 }
 
+#menu-introduction {
+	top: 5%;
+	right: -70px;
+	padding-bottom: 100px;
+}
+
+#menu-intention {
+	top: 20%;
+	right: -110px;
+	padding-bottom: 100px;
+	width: 240px;
+}
+
+#menu-fiction {
+	top: 30%;
+	right: -50px;
+	padding-bottom: 100px;
+}
+
+#menu-reality {
+	top: 50%;
+	right: -50px;
+	padding-bottom: 100px;
+}
+
+#intention {
+	top: 20px;
+}
+
+
 #trobriant {
 	position: absolute;
-	top: 475%;
+	top: 468%;
 
 }
 
@@ -297,8 +344,8 @@ hr {
 	h6 {page-break-inside: avoid;}
 	
 	.quote { font-size: 20;}
-	.introduction { width:70%;  padding-right: 250px; page-break-after: always; }
-	.introduction img {width: 300px; float: left; mix-blend-mode: multiply; page-break-inside: avoid;}
+	.blackpink { width:70%;  padding-right: 250px; page-break-after: always; }
+	.blackpink img {width: 300px; float: left; mix-blend-mode: multiply; page-break-inside: avoid;}
 	.fiction {font-size: 15;}
 	.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden; page-break-inside: avoid;}
 	#menu-container{display:none;}
@@ -309,15 +356,6 @@ hr {
    		page-break-inside: avoid;
 		}
 
-}
-
-
-
-
-
-
-ul {
-	padding-left: 100px;
 }
 
 
