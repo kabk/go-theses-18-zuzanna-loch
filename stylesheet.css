@@ -1,11 +1,15 @@
 
-
+body {
+	margin: 0px;
+	background-color: black;
+}
 
 h1 {
 
 	font-family: 'Cormorant', serif;
 	font-weight: lighter;
 	font-size: 45;
+	padding-top: 100px;
 }
 
 h2 {
@@ -17,7 +21,7 @@ h2 {
 h3 {
 	font-family: 'Cormorant', serif;
 	font-weight: lighter;
-	font-size: 30;
+	font-size: 34;
 }
 
 h4 {
@@ -37,18 +41,22 @@ h6 {
 	font-weight: bold;
 	font-size: 70;
 	-webkit-margin-after: 1em;
+	-webkit-margin-before: 1em;
 }
 
 
 
 p {
-	font-family: 'Cormorant', bold;
+	font-family: 'Avenir', bold;
 
 }
 
 a {
 	text-decoration: none;
 	color: white;
+	white-space: nowrap;
+	text-shadow: 0 0 12px #e8b8b2, 0 0 10px #e8b8b2;
+	font-size: 19px;
 	
 }
 
@@ -75,7 +83,7 @@ video {
 	background-color: #000000;
 	padding-left: 10%;
 	padding-right: 18%;
-	color: #ffb6af;
+	color: #d1ada3;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-left: -10px;
@@ -135,28 +143,31 @@ video {
 }*/
 
 .interviews {
+	padding-top: 5%;
 	padding-left: 10%;
 	padding-right: 18%;
-	color: #ffb6af;
+	color: black;
 	padding-bottom: 100px;
-	margin-left: -10px;
-	margin-right: -10px;
+	/*margin-left: -10px;
+	margin-right: -10px;*/
+	background-color: white;
 }
 
 .interviews-content {
-	columns: 2;
-	-webkit-column-gap: 1px;
-	-moz-column-gap: 1px;
+	
+	
 	font-family: Avenir;
 	font-size: 17;
-	color: black;
+	
 	/*text-shadow: 0 0 15px #ffb6af;*/
 }
 
 ul {
-	
+	column-count: 2;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
 	list-style-type: none;
-	padding-left: 50px;
+	-webkit-padding-start: 0px;
 	-webkit-margin-before: 0em;
 
 }
@@ -179,6 +190,7 @@ li {
 	margin-right: -10px;
 	font-family: Cormorant;
 	font-size: 18px;
+	background-color: white;
 }
 
 #subtitle {
@@ -193,7 +205,7 @@ li {
 	height: 330px;
 	float: left;
 	overflow: hidden;
-	background-color: #ffb6af;
+	background-color: #e8b8b2;
 	
 	
 }
@@ -205,11 +217,15 @@ hr {
 .fiction {
 	padding-bottom: 100px;
 	padding-left: 10%;
-	padding-right: 18%;
+	padding-right: 25%;
 	padding-top: 100px;
-	font-size: 22;
-	font-family: Avenir;
+	font-size: 20;
+	font-family: "UniversLTStd-Cn";
 	font-weight: lighter;
+	background-color: white;
+	margin-left: -10px;
+	margin-right: -10px;
+
 }
 
 .fiction img {
@@ -230,7 +246,7 @@ hr {
 .quote {
 	padding-bottom: 80px;
 	padding-left: 15%;
-	font-size: 29;
+	font-size: 25;
 	font-weight: bold;
 }
 
@@ -238,14 +254,12 @@ hr {
 	font-family: Helvetica;
 	font-size: 18;
 	line-height: 26px;
-	/*width: 90%;*/
-	/*display: inline-block;*/
-    word-break:break-all;
     padding-bottom: 100px;
 	padding-left: 5%;
-	/*padding-right: 18%;*/
+	padding-right: 10%;
 	padding-top: 100px;
 	text-shadow: 0 0 3px #ffd0cc, 0 0 14px #ffd0cc;
+
 }
 
 
@@ -256,20 +270,18 @@ hr {
 .menu-container div{
 	text-decoration: none;
 	position: fixed;
+	right: -280px;
 	padding-left: 1%;
 	padding-top: 0.5%;
 	padding-right: 1%;
-	color: #ffb6af;
-	background-color: rgba(0, 0, 0, 1);
-	opacity: 0.25;
+	/*height: 70px;*/
+	width: 300px;
+	/*background-color: rgba(76, 44, 44, 0.1);*/
+	/*opacity: 0.55;*/
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    /* Rotate div */
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
     border-radius: 6px;
     font-family: Avenir;
     font-weight: lighter;
@@ -279,59 +291,63 @@ hr {
 
 .menu-container div:hover{
     position: fixed;
-    
-    background-color: rgba(0, 0, 0, 0);
+    font-family: Cormorant;
+    background-color: rgba(76, 44, 44, 0);
     opacity: 1;
     color: black;
-    text-shadow: 0 0 3px #ffd0cc, 0 0 20px #ffd0cc;
-
-    /*left: 92%;*/
-    transform: translate(-5%, -54%);
-    /* Rotate div */
-    -ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Safari 3-8 */
-    transform: rotate(-90deg);
+    transform: translate(-80px, 0);
 }
 
 #menu-introduction {
-	top: 5%;
-	right: -70px;
-	padding-bottom: 100px;
+	top: 10%;
+	/*right: -70px;*/
+	padding-bottom: -100px;
 }
 
 #menu-intention {
-	top: 20%;
-	right: -110px;
+	top: 35%;
+	/*right: -70px;*/
 	padding-bottom: 100px;
-	width: 240px;
+	/*width: 240px;*/
 }
 
 #menu-fiction {
-	top: 30%;
-	right: -50px;
+	top: 60%;
+	/*right: -70px;*/
 	padding-bottom: 100px;
 }
 
 #menu-reality {
-	top: 50%;
-	right: -50px;
+	top: 85%;
+	/*right: -70px;*/
 	padding-bottom: 100px;
 }
 
 #intention {
 	top: 20px;
+
 }
 
 
 #trobriant {
-	position: absolute;
-	top: 468%;
+	background-color: black;
+	height: 600px;
 
 }
 
 #trobriant img {
+	position: absolute;
 	width: 100%;
+	transform: translate(0, -17%);
+	/*left: 30px;*/
 }
+
+
+
+
+
+
+
 
 @media print {
 
@@ -340,11 +356,11 @@ hr {
 	h1 {font-size: 20; font-weight: lighter;}
 	h2 {font-size: 70;  page-break-after: avoid; page-break-before: always;}
 	h3 {font-size: 20;}
-	h4 {font-size: 15;}
+	h4 {font-size: 15; page-break-after: always;}
 	h6 {page-break-inside: avoid;}
 	
 	.quote { font-size: 20;}
-	.blackpink { width:70%;  padding-right: 250px; page-break-after: always; }
+	.blackpink { width:70%;  padding-right: 250px; /*page-break-after: always;*/ }
 	.blackpink img {width: 300px; float: left; mix-blend-mode: multiply; page-break-inside: avoid;}
 	.fiction {font-size: 15;}
 	.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden; page-break-inside: avoid;}
@@ -352,6 +368,11 @@ hr {
 	.video {display: none;}
 	#video {display: none;}
 	.type-wrap {display:none;}
+	.menu-container {display: none;}
+	#trobriant {height: 310px;}
+	#trobriant img {page-break-inside: avoid;}
+
+	}
 	ul, img {
    		page-break-inside: avoid;
 		}
