@@ -1,6 +1,6 @@
 function myFunction(){
   var element = document.getElementById("video");
-  var desiredPosition = 1900;
+  var desiredPosition = 1950;
   if(window.pageYOffset >= desiredPosition){
      element.style.position = "absolute";
      element.style.top = "1690px";
