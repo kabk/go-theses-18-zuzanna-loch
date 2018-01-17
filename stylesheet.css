@@ -197,7 +197,7 @@ hr {
 	padding-left: 20px;
 	padding-top: 20px;
 	width: 150px;
-	height: 150px;
+	height: 190px;
 	float: left;
 	font-family: Avenir;
 	color: white;
@@ -206,7 +206,10 @@ hr {
 
 
 .img-margin {
+	/*position: absolute;*/
+	width:400px;
 	margin-left: 30%;
+	margin-bottom: 180px;
 	}
 
 #graph {
@@ -279,6 +282,7 @@ sup {
 }
 
 #alien {
+	padding-top: 200px;
 	padding-bottom: 200px;
 }
 
@@ -388,6 +392,7 @@ sup {
 	}
 	#conclusions {
 		page-break-before: always;
+		margin-top: 30px;
 		page-break-after: avoid;
 	}
 	.front01 {
@@ -410,6 +415,27 @@ sup {
 	ul, img {
    		/*page-break-inside: avoid;*/
 		}	
+
+	#alien {
+		padding-bottom: 10px;
+		padding-top: 10px;
+		page-break-after: always;
+	}
+
+	.references ol {
+		column-count: 2;
+		-webkit-column-gap: 60px;
+		-moz-column-gap: 60px;
+
+	}
+
+	.references li {
+		padding: 0px;
+	}
+
+	.img-margin {
+		margin-left: 12%;
+	}
 
 }
 
