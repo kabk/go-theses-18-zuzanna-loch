@@ -4,6 +4,10 @@ body {
 	background-color: black;
 	}
 
+#anka {
+	display: none;
+}
+
 h1 {
 	font-family: 'Cormorant', serif;
 	font-weight: lighter;
@@ -71,6 +75,13 @@ video {
 
 .front {
 	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 18%;
+	padding-top: 1px;
+	}
+
+.front01 {
+	padding-bottom: 320px;
 	padding-left: 10%;
 	padding-right: 18%;
 	padding-top: 1px;
@@ -267,6 +278,10 @@ sup {
 	font-size: 15px;
 }
 
+#alien {
+	padding-bottom: 200px;
+}
+
 
 
 
@@ -323,6 +338,14 @@ sup {
 
 }
 
+#personal {
+	clear: left;
+}
+
+#diary {
+	display: none;
+}
+
 
 
 
@@ -340,7 +363,7 @@ sup {
 
 	body {-webkit-print-color-adjust: exact; }
 	h1 {font-size: 20; font-weight: lighter;}
-	h2 {font-size: 70;  page-break-after: avoid; page-break-before: always;}
+	h2 {font-size: 20;  page-break-after: avoid; page-break-before: always;}
 	h3 {font-size: 20;}
 	h4 {font-size: 15; page-break-after: always;}
 	h6 {page-break-inside: avoid;}
@@ -351,17 +374,42 @@ sup {
 	.fiction {font-size: 15;}
 	.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden; page-break-inside: avoid;}
 	#menu-container{display:none;}
+	#churchillina img {width: 250px;}
 	.video {display: none;}
 	#video {display: none;}
 	.type-wrap {display:none;}
 	.menu-container {display: none;}
 	#trobriant {height: 310px;}
 	#trobriant img {page-break-inside: avoid;}
+	#anka {
+		display: initial;
+		height: 100%;
+		/*position: absolute;*/
+	}
+	#conclusions {
+		page-break-before: always;
+		page-break-after: avoid;
+	}
+	.front01 {
+		background-image: url("images/anka.jpg");
 
 	}
+	#diary {
+		display: initial;
+		page-break-after: always;
+	}
+
+	.reality {
+		page-break-before: always;
+	}
+
+	.personal {
+		display: none;
+	}
+
 	ul, img {
-   		page-break-inside: avoid;
-		}
+   		/*page-break-inside: avoid;*/
+		}	
 
 }
 
