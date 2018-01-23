@@ -61,6 +61,21 @@ a {
 	text-decoration: none;
 	}
 
+.image-text {
+	margin-bottom: 10px;
+	display: inline;
+	float: left;
+	font-family: 'Avenir';
+	font-size: 12px;
+	color: white;
+	background-color: black;
+	position: relative;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	padding: 1px;
+	transform: translate(0, 15px);
+}
+
 
 video {
 	top: -200px;
@@ -69,12 +84,13 @@ video {
 	z-index: -10;
 	}
 #wait {
+	font-family: Cormorant;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	z-index: -1000000000000000000;
+	z-index: -1000;
 }
 
 #video {
@@ -116,7 +132,6 @@ video {
 .multiply {
 
 	margin: 15px;
-	
 	float: left;
 	overflow: hidden;
 	background-color: #d1ada3;	
@@ -129,10 +144,9 @@ video {
 
 #natalia {
 	
-	width:100%;
 	overflow: hidden;
 	background-color: #d1ada3;	
-	display: block;
+	
 
 }
 
@@ -187,7 +201,7 @@ video {
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-top: 15px;
 	}
 
 .fiction-chapter {
@@ -257,6 +271,7 @@ hr {
 
 #graph {
 	margin-left: 10%;
+	margin-top: 50px;
 	}
 
 
@@ -305,6 +320,7 @@ hr {
 	padding-left: 10%;
 	padding-right: 18%;
 	padding-bottom: 100px;
+	margin-top: 400px;
 	margin-left: -10px;
 	margin-right: -10px;
 	font-family: Cormorant;
@@ -325,8 +341,8 @@ sup {
 }
 
 #alien {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 400px;
+	padding-bottom: 400px;
 }
 
 
@@ -410,59 +426,84 @@ sup {
 
 	body {-webkit-print-color-adjust: exact; }
 	h1 {font-size: 20; font-weight: lighter;}
-	h2 {font-size: 20;  page-break-after: avoid; page-break-before: always;}
-	h3 {font-size: 20;}
+	h2 {font-size: 15;  page-break-after: avoid; page-break-before: always;}
+	h3 {font-size: 15;}
 	h4 {font-size: 15; page-break-after: always;}
 	h6 {page-break-inside: avoid;}
 	
-	.quote { font-size: 20;}
-	.blackpink { width:70%;  padding-right: 250px; /*page-break-after: always;*/ }
+	.quote { font-size: 20; padding-bottom: 35px;}
+	.blackpink {  padding-top: 60px;/*padding-right: 50px;*/ /*page-break-after: always;*/ }
 	.blackpink img {width: 300px; float: left; mix-blend-mode: multiply; page-break-inside: avoid;}
-	.fiction {font-size: 15;}
-	.multiply { width: 300px; height: 180px; margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden; page-break-inside: avoid;}
+	.fiction {font-size: 15; padding-right: 120px;}
+	.references {margin-top: 40px;}
+	.multiply { margin-right: 20px; margin-top:20px; margin-bottom: 20px; float: left; overflow: hidden; page-break-inside: avoid;}
+	.multiply img {display: block; width: 280px;}
 	#menu-container{display:none;}
-	#churchillina img {width: 250px;}
+	#churchillina {page-break-before: always;}
+	#churchillina img {width: 250px; }
+	.fiction img {width: 250px;}
 	.video {display: none;}
 	#video {display: none;}
 	.type-wrap {display:none;}
 	.menu-container {display: none;}
-	#trobriant {height: 310px;}
-	#trobriant img {page-break-inside: avoid;}
+	.image-text {page-break-inside: avoid; page-break-after: avoid;font-size: 10;}
+	#trobriant {padding-top: 50px; height: 360px; page-break-inside: avoid;}
+	#trobriant img {page-break-inside: avoid; padding-top: 50px;}
+	.right-color img {width: 200px; }
 	#anka {
 		display: initial;
-		height: 100%;
-		/*position: absolute;*/
 	}
+	#mencanseeus {
+		page-break-before: always;
+		page-break-inside: avoid;
+	}
+	#graph img {width: 400px;}
+	#natalia {margin-right: 20px;
+		width: 220px;
+		float: left;}
+	#natalia img {width: 220px;}
 	#conclusions {
 		page-break-before: always;
 		margin-top: 30px;
+		/*padding-right: 50px;*/
 		page-break-after: avoid;
 	}
 	.front01 {
 		background-image: url("images/anka.jpg");
+		padding: 50px;
+		padding-bottom: 170px;
+		page-break-inside: avoid;
+		
 
 	}
+
+
+	.front01 img {
+		page-break-inside: avoid;
+		/*height: 100%;*/
+	}
+
 	#diary {
 		display: initial;
-		page-break-after: always;
+		
+	}
+	#personal {
+		margin-top: 0px;
 	}
 
 	.reality {
-		page-break-before: always;
+		/*page-break-before: always;*/
+		/*padding-right: 50px;*/
 	}
 
 	.personal {
 		display: none;
-	}
-
-	ul, img {
-   		/*page-break-inside: avoid;*/
-		}	
+	}	
 
 	#alien {
-		padding-bottom: 10px;
-		padding-top: 10px;
-		page-break-after: always;
+		padding-bottom: 0px;
+		padding-top: 40px;
+		/*page-break-after: always;*/
 	}
 
 	.references ol {
@@ -474,10 +515,27 @@ sup {
 
 	.references li {
 		padding: 0px;
+		font-size: 10;
 	}
 
 	.img-margin {
 		margin-left: 12%;
+		margin-top: 80px;
+		margin-bottom: 180px;
+		page-break-inside: avoid;
+	}
+
+	.right-color {
+		
+		page-break-before: avoid;
+	}
+
+	.interviews-content {
+		font-size: 15;
+		page-break-after: always;
+	}
+	.interviews {
+		page-break-after: always;
 	}
 
 }
