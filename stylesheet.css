@@ -68,6 +68,14 @@ video {
 	width: 100%;
 	z-index: -10;
 	}
+#wait {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	z-index: -1000000000000000000;
+}
 
 #video {
 	position: fixed;
@@ -100,25 +108,53 @@ video {
 
 
 .blackpink img {
-	width: 500px; 
-	float: left;
-	mix-blend-mode: multiply;
+	max-width: 500px; 
+	/*float: left;*/
 	}
 
 
 .multiply {
 
-	width: 500px;
-	margin-right: 15px;
-	height: 330px;
+	margin: 15px;
+	
 	float: left;
 	overflow: hidden;
-	background-color: #e8b8b2;	
+	background-color: #d1ada3;	
+
 	}
+
+.multiply img {
+	mix-blend-mode: multiply;
+}
+
+#natalia {
+	
+	width:100%;
+	overflow: hidden;
+	background-color: #d1ada3;	
+	display: block;
+
+}
+
+#natalia img {
+	mix-blend-mode: multiply;
+}
+
+.right-color {
+	max-width: 500px;
+	margin: 15px;
+	float: right;
+	overflow: hidden;
+	/*background-color: #FFFFFF;	*/
+	}
+
 
 #trobriant {
 	background-color: black;
 	height: 600px;
+	width: 100%;
+	/*margin-bottom: 300px;
+*/
 
 	}
 
@@ -140,6 +176,11 @@ video {
 	margin-left: -10px;
 	margin-right: -10px;
 	}
+
+.univers {
+	font-family: "UniversLTStd-CnObl";
+	display: inline;
+}
 
 .fiction img {
 	/*width: 300px;*/
@@ -163,7 +204,7 @@ video {
 	}
 
 hr {
-	 border-color: #e8b8b2;
+	 border-color: #d1ada3;
 	}
 
 .personal {
@@ -182,12 +223,14 @@ hr {
 	background-color: #000000;
 	padding-left: 10%;
 	padding-right: 18%;
-	color: #e8b8b2;
+	color: #d1ada3;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-left: -10px;
 	margin-right: -10px;
 	}
+
+
 
 .img-left {
 	float: left;
