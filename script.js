@@ -1,7 +1,7 @@
 function myFunction(){
   var element = document.getElementById("video");
   var komunikatwait = document.getElementById("wait");
-  var desiredPosition = 1950;
+  var desiredPosition = 1900;
   if(window.pageYOffset >= desiredPosition){
      element.style.position = "absolute";
      element.style.top = "1690px";
