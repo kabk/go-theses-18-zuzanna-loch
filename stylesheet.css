@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "UniversLTStd-Cn";
+    src: url(fonts/UniversLTStd-Cn.otf);
+}
+
+@font-face {
+    font-family: "UniversLTStd-CnObl";
+    src: url(fonts/UniversLTStd-CnObl.otf);
+}
+
 
 body {
 	margin: 0px;
@@ -184,7 +194,7 @@ video {
 	padding-left: 10%;
 	padding-right: 25%;
 	font-size: 20;
-	font-family: "UniversLTStd-Cn";
+	font-family: "UniversLTStd-Cn", Futura;
 	font-weight: lighter;
 	background-color: white;
 	margin-left: -10px;
@@ -192,7 +202,7 @@ video {
 	}
 
 .univers {
-	font-family: "UniversLTStd-CnObl";
+	font-family: "UniversLTStd-CnObl", Futura;
 	display: inline;
 }
 
