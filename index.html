@@ -1,3 +1,4 @@
+
 <html>
 	<head>
 		<title>A Particular Rush of Blood to The Brain</title>
@@ -15,7 +16,7 @@
 		<div id="wait">Wait a second please</div>
 		<video id="video" width="1600" height="1200" autoplay loop>
   			<source src="lolek.mp4" type="video/mp4">
-  			<source src="movie.ogg" type="video/ogg">
+  			<!-- <source src="movie.ogg" type="video/ogg"> -->
   				Your browser does not support the video tag.
 		</video>
 
@@ -563,15 +564,24 @@
 
 
 		var once = false;
-		var pad = 300;
-		var divPos = $(".personal").position();
-		var yPos = divPos.top;
+		var pad = 500;
+		var divPos;
+		var yPos;
+		
+
+		setTimeout(function(){
+			divPos = $("#personal").offset();
+			yPos = divPos.top;
+			// console.log(yPos,"ypos");
+		}, 1600);
 
 		$(window).scroll(function(){
 			var scrollTop = $("body").scrollTop();
+			// console.log(scrollTop);
 
 			if (scrollTop + pad >= yPos && once === false) {
 				once = true;
+				// console.log("isjdisjdijis");
 				writeSentence(0);
 			}
 		});
