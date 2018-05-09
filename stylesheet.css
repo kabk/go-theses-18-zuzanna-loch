@@ -443,7 +443,7 @@ sup {
 	h6 {page-break-inside: avoid;}
 	
 	.quote { font-size: 20; padding-bottom: 35px;}
-	.blackpink {  padding-top: 60px;/*padding-right: 50px;*/ /*page-break-after: always;*/ }
+	.blackpink { color: white; padding-top: 60px;/*padding-right: 50px;*/ /*page-break-after: always;*/ }
 	.blackpink img {width: 300px; float: left; mix-blend-mode: multiply; page-break-inside: avoid;}
 	.fiction {font-size: 15; padding-right: 120px;}
 	.references {margin-top: 40px;}
@@ -503,6 +503,7 @@ sup {
 	}
 
 	.reality {
+		color: white;
 		/*page-break-before: always;*/
 		/*padding-right: 50px;*/
 	}
@@ -526,7 +527,7 @@ sup {
 
 	.references li {
 		padding: 0px;
-		font-size: 10;
+		font-size: 11;
 	}
 
 	.img-margin {
